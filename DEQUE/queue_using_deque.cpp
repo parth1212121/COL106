@@ -6,6 +6,7 @@ class Queue{
 
     deque<int>d;
     int N=0;
+    
     public:
         Queue(){
 

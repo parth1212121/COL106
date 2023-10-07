@@ -22,17 +22,17 @@ class queue{
                 front++;
             }
             back++;
-            arr[back]=x;
-            
+            arr[back]=x;           
       }
-      void pop(){
 
+      void pop(){
         if(front==-1 || front>back ){ 
             cout<<"Empty"<<endl;
             return;
         }
         front++;
       }
+      
       int peek(){
         if(front==-1 || front>back ){            
             return -1;

@@ -1,6 +1,7 @@
 #include<iostream>
 #include<stack>
 using namespace std;
+
 class queue{
     stack<int>s1;
     stack<int>s2;
@@ -30,6 +31,7 @@ class queue{
         return false;
     }
 };
+
 int main(){
     queue q;
     q.push(4);

@@ -1,6 +1,7 @@
 #include<iostream>
 #include<stack>
 using namespace std;
+
 void insertAtbottom(stack<int> &st,int ele){
         if(st.empty()){
             st.push(ele);
@@ -11,6 +12,7 @@ void insertAtbottom(stack<int> &st,int ele){
         insertAtbottom(st,ele);
         st.push(topele);
 }
+
 void reverse(stack<int> &st){
     if(st.empty()){
         return;

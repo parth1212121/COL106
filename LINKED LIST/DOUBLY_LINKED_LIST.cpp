@@ -32,13 +32,12 @@ class DLL{                                                        // Using doubl
          tail->prev=head;
     }
 
-    void insertfront(int val){
-        
+    void insertfront(int val){        
         Node* n=new Node(val);
         head->next->prev=n;
-          n->next=head->next;
-          head->next=n;
-         n->prev=head;   
+        n->next=head->next;
+        head->next=n;
+        n->prev=head;   
         return;        
      }
 

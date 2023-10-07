@@ -10,6 +10,9 @@ class node{
         next=NULL;
     }
 };
+
+
+
 class queue{
     public:
 
@@ -20,6 +23,7 @@ class queue{
         front=NULL;
         back=NULL;
     }
+
     void push(int x){
         node* n=new node(x);
         if(front==NULL){
@@ -28,8 +32,9 @@ class queue{
             return;
         }
         back->next=n;
-        back=back->next;
+        back=n;
     }
+
     void pop(){
         if(front==NULL){
             cout<<"Queue underfow"<<endl;
@@ -56,6 +61,8 @@ class queue{
         return false;
     }
 };
+
+
 int main(){
 
 

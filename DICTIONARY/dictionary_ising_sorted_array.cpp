@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 class Element{
 public:
     int key;
@@ -12,9 +13,10 @@ public:
     val=va;
         }
 };
+
 class sorted_array_dic{
 
-     private:
+    private:
         Element* e;
         int capacity,count;
 
@@ -76,6 +78,8 @@ class sorted_array_dic{
                  return find_recursive(e,key,lo,mid-1);
             }   
         }
+
+        
           void insert(Element* ein){                       // O(nlogn).
 
             int lo=0;

@@ -19,6 +19,7 @@ void insertAthead(int data, Node* &head){
             head=newnode;
    }   
 }
+
 void insertAfter(Node* &n,int data){
     Node* newnode=new Node(data);
     if(n!=NULL){
@@ -28,6 +29,7 @@ void insertAfter(Node* &n,int data){
     else{
         return ;
 }}
+
 void insertAtend(int data,Node* &head){
     if(head==NULL || head->next==NULL){
         insertAthead(data,head);

@@ -67,7 +67,5 @@ st.pop();
 st.pop();
 st.pop();
 cout<<st.top()<<endl;
-
-
     return 0;
 }

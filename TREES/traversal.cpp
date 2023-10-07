@@ -30,6 +30,7 @@ void inorder(Node* root){
     cout<<root->data<<" ";
     inorder(root->right);
 }
+
 void postorder(Node* root){
     if(root==NULL){
         return;
@@ -39,7 +40,6 @@ void postorder(Node* root){
     cout<<root->data<<" ";
 }
 
-
 int main(){                                                                 // Our Tree.....
 
     Node* root= new Node(10);             //                                 1
@@ -48,7 +48,7 @@ int main(){                                                                 // O
     root->left->left=new Node(3); 
     root->left->left->left=new Node(1); 
     root->left->left->right=new Node(4); 
-     root->left->right=new Node(9);      //                             4  5  6 7
+    root->left->right=new Node(9);      //                             4  5  6 7
     root->right->left=new Node(11);
     root->right->right=new Node(15);
     root->right->right->left=new Node(14);

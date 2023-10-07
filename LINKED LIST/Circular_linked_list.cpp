@@ -9,6 +9,7 @@ class node{
         next=NULL;
     }  
 };
+
 void insertAthead(node* &head,int val){
 
     node* n=new node(val);
@@ -26,6 +27,7 @@ void insertAthead(node* &head,int val){
     n->next=head;
     head=n;
 }
+
 void insertAttail(node* &head,int val){
 
     if(head==NULL){
@@ -42,7 +44,10 @@ void insertAttail(node* &head,int val){
     n->next=head;
     }
 }
+
 /// Deletion...
+
+
 void deleteAthead(node* &head){
     node*temp=head;
     while(temp->next!=head){

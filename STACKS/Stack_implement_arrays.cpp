@@ -2,9 +2,9 @@
 using namespace std;      // Stack implementation using arrays...
 #define n 10
 class stack{
+
     int *arr;
     int top;
-
 
     public:
         stack(){

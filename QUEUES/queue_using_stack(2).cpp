@@ -1,12 +1,13 @@
 #include<iostream>
 #include<stack>
 using namespace std;
-class queue{
+class queue{                                // Using 1 stack......          [Recursion.....]
     stack<int>s1;
      public:
     void push(int x){      // O(1)
         s1.push(x);
     }
+
     int pop(){                                  //O(n)
         if(s1.empty()){
             cout<<"ERROR"<<endl;
@@ -21,6 +22,7 @@ class queue{
         s1.push(x);
         return item;
     }
+
     bool empty(){
         if(s1.empty()){            
             return true;
@@ -28,6 +30,8 @@ class queue{
         return false;
     }
 };
+
+
 int main(){
     queue q;
     q.push(4);
