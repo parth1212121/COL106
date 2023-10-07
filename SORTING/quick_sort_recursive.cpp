@@ -5,7 +5,10 @@ void swap(int &a,int &b){
     a=b;
     b=temp;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 int partition(int A[],int left,int right){
     // partition A[left,...,right-1] using pivot.
     // Return i such that A[i] is pivot.

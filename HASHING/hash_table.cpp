@@ -34,8 +34,11 @@ void linear_probing(int k){                         // insertion!!!!
         if(tablefull()){
             cout<<"TABLE IS FULL, IMPROVE THE ARCHITECTURE!!!"<<endl;
         }
+<<<<<<< HEAD
 
         
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
         else{
 
             int ind=hashfunc1(k);

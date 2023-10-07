@@ -15,10 +15,17 @@ class Node{
     parent=NULL;
 
    } 
+<<<<<<< HEAD
 };      
                                       
 void insert(Node* root,Node* v){                   
                                                      // Worst Case -->O(n).
+=======
+};                                            
+void insert(Node* root,Node* v){                   
+    
+                                                  // Worst Case -->O(n).
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
                                                   // Average case--> O(log n)
 
     // Inserts node v into the BST.
@@ -49,9 +56,13 @@ void insert(Node* root,Node* v){
             insert(root->right,v);
         }
   }
+<<<<<<< HEAD
 
 }
 
+=======
+}
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 int main(){  
 
 

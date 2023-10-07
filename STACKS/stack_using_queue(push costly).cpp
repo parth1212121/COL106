@@ -2,16 +2,25 @@
 #include<queue>
 using namespace std;
 class Stack{                          /// PUSH COSTLY ->METHOD(1)
+<<<<<<< HEAD
 
     int N;
     queue<int>q1;
     queue<int>q2;
 
+=======
+    int N;
+    queue<int>q1;
+    queue<int>q2;
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
     public:
         Stack(){
             N=0;
        }
+<<<<<<< HEAD
        
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
        void push(int x){            // O(n)
        q2.push(x);
         N++;

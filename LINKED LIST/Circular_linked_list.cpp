@@ -9,7 +9,10 @@ class node{
         next=NULL;
     }  
 };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 void insertAthead(node* &head,int val){
 
     node* n=new node(val);
@@ -27,7 +30,10 @@ void insertAthead(node* &head,int val){
     n->next=head;
     head=n;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 void insertAttail(node* &head,int val){
 
     if(head==NULL){
@@ -44,10 +50,14 @@ void insertAttail(node* &head,int val){
     n->next=head;
     }
 }
+<<<<<<< HEAD
 
 /// Deletion...
 
 
+=======
+/// Deletion...
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 void deleteAthead(node* &head){
     node*temp=head;
     while(temp->next!=head){

@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 class Element{
 public:
     int key;
@@ -13,10 +16,16 @@ public:
     val=va;
         }
 };
+<<<<<<< HEAD
 
 class sorted_array_dic{
 
     private:
+=======
+class sorted_array_dic{
+
+     private:
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
         Element* e;
         int capacity,count;
 
@@ -78,8 +87,11 @@ class sorted_array_dic{
                  return find_recursive(e,key,lo,mid-1);
             }   
         }
+<<<<<<< HEAD
 
         
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
           void insert(Element* ein){                       // O(nlogn).
 
             int lo=0;

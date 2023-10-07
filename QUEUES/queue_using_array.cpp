@@ -22,17 +22,28 @@ class queue{
                 front++;
             }
             back++;
+<<<<<<< HEAD
             arr[back]=x;           
       }
 
       void pop(){
+=======
+            arr[back]=x;
+            
+      }
+      void pop(){
+
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
         if(front==-1 || front>back ){ 
             cout<<"Empty"<<endl;
             return;
         }
         front++;
       }
+<<<<<<< HEAD
       
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
       int peek(){
         if(front==-1 || front>back ){            
             return -1;

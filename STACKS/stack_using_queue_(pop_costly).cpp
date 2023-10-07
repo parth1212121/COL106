@@ -67,5 +67,10 @@ st.pop();
 st.pop();
 st.pop();
 cout<<st.top()<<endl;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
     return 0;
 }

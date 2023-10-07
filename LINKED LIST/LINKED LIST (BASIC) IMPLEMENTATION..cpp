@@ -19,7 +19,10 @@ void insertAthead(int data, Node* &head){
             head=newnode;
    }   
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 void insertAfter(Node* &n,int data){
     Node* newnode=new Node(data);
     if(n!=NULL){
@@ -29,7 +32,10 @@ void insertAfter(Node* &n,int data){
     else{
         return ;
 }}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 void insertAtend(int data,Node* &head){
     if(head==NULL || head->next==NULL){
         insertAthead(data,head);

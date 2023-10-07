@@ -10,9 +10,12 @@ class node{
         next=NULL;
     }
 };
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 class queue{
     public:
 
@@ -23,7 +26,10 @@ class queue{
         front=NULL;
         back=NULL;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
     void push(int x){
         node* n=new node(x);
         if(front==NULL){
@@ -32,9 +38,14 @@ class queue{
             return;
         }
         back->next=n;
+<<<<<<< HEAD
         back=n;
     }
 
+=======
+        back=back->next;
+    }
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
     void pop(){
         if(front==NULL){
             cout<<"Queue underfow"<<endl;
@@ -61,8 +72,11 @@ class queue{
         return false;
     }
 };
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 int main(){
 
 

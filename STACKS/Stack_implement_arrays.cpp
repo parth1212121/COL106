@@ -2,10 +2,17 @@
 using namespace std;      // Stack implementation using arrays...
 #define n 10
 class stack{
+<<<<<<< HEAD
 
     int *arr;
     int top;
 
+=======
+    int *arr;
+    int top;
+
+
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
     public:
         stack(){
             arr= new int[n];

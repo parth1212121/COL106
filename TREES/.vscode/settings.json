@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "new": "cpp",
+<<<<<<< HEAD
         "iostream": "cpp",
         "type_traits": "cpp",
         "array": "cpp",
@@ -68,5 +69,8 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp"
+=======
+        "iostream": "cpp"
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
     }
 }

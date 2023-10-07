@@ -1,7 +1,10 @@
 #include<iostream>
 #include<stack>
 using namespace std;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 class queue{
     stack<int>s1;
     stack<int>s2;
@@ -31,7 +34,10 @@ class queue{
         return false;
     }
 };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
 int main(){
     queue q;
     q.push(4);

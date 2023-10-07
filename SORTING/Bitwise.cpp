@@ -10,8 +10,11 @@ int main(){
     printf("vallue of x is %d %X %o\n",x,x,x);
     printf("vallue of y is %d %X %o\n",y,y,y);
     printf("vallue of z is %d %X %o\n",z,z,z);
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9f6b9d1aaec5af8be5bad6868396e39ce8d7b49e
     z=(x>>2);
     printf("vallue of z is %d %X %o\n",z,z,z);
     z=(y<<1);
